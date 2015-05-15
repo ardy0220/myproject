@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ttg.pay</groupId>
+  <artifactId>chinapay</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>chinapay</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <springframework-version>4.1.4.RELEASE</springframework-version>
+  </properties>
+
+  <modules>
+  	
+  	<module>ttgpay-core</module>
+  	<module>ttgpay-webapp</module>
+  	<module>ttgpay-web</module>
+  	<module>E:/GIT/myproject/ttg-util</module>
+  </modules>
+</project>
